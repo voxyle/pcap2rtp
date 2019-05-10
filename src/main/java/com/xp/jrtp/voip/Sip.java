@@ -1,8 +1,8 @@
 package com.xp.jrtp.voip;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
+/**
+ * sip信息
+ */
 public class Sip {
     private String from;
     private String to;

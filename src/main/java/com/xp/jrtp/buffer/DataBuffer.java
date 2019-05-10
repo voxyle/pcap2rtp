@@ -1,7 +1,7 @@
 package com.xp.jrtp.buffer;
 
 /**
- * 字节读取Buffer
+ * byte数组读取
  */
 public class DataBuffer {
     private byte[] data;

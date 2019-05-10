@@ -18,14 +18,7 @@ public class ByteTool {
     }
     //把byte数组转换成十六进制并翻转
     public static long toReverseHex(byte[] buffer) {
-        StringBuffer strBf = new StringBuffer();
-        for (byte b : buffer) {
-            String hex = Integer.toHexString(b & 0xFF);
-            if (hex.length() < 2) {
-                hex = "0" + hex;
-            }
-            strBf.append(hex);
-        }
+        StringBuffer strBf = new StringBuffer(tohex(buffer));
         strBf.reverse();
         return Long.parseLong(strBf.toString(), 16);
     }

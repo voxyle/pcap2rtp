@@ -1,7 +1,7 @@
 package com.xp.jrtp.type;
 
 /**
- * rtp payload
+ * payload类型
  */
 public enum PayloadType {
     GSM(3),  //GSM 类型码: 3

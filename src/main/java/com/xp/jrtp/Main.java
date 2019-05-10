@@ -1,5 +1,6 @@
 package com.xp.jrtp;
 
+import com.xp.jrtp.log.Trace;
 import com.xp.jrtp.tool.ByteTool;
 import com.xp.jrtp.tool.CodesTool;
 import com.xp.jrtp.type.PayloadType;
@@ -14,15 +15,14 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         FileInputStream stream = null;
-
         try {
             stream = new FileInputStream("D:\\Downloads\\a.pcap");
             new Entrance(Pcap.parse(stream))
                     .forMap();
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            Trace.e(e);
         } catch (IOException e) {
-            e.printStackTrace();
+            Trace.e(e);
         } finally {
             stream.close();
         }
@@ -42,7 +42,7 @@ public class Main {
 
         void forMap() {
             if (vMap == null) {
-                new NullPointerException("");
+                throw new NullPointerException("");
             }
             Iterator<Map.Entry<String, Voip>> iterator = vMap.entrySet().iterator();
             while (iterator.hasNext()) {
@@ -74,15 +74,15 @@ public class Main {
                 fos.write(bytes);
                 fos.flush();
             } catch (FileNotFoundException e) {
-                e.printStackTrace();
+                Trace.e(e);
             } catch (IOException e) {
-                e.printStackTrace();
+                Trace.e(e);
             } finally {
                 if (fos != null) {
                     try {
                         fos.close();
                     } catch (IOException e) {
-                        e.printStackTrace();
+                        Trace.e(e);
                     }
                 }
             }
@@ -103,8 +103,8 @@ public class Main {
                         break;
 
                 }
-            }catch (Exception e){
-                e.printStackTrace();
+            } catch (Exception e) {
+                Trace.e(e);
             }
 
             return bytes;

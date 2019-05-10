@@ -1,7 +1,7 @@
 package com.xp.jrtp.type;
 
 /**
- * pcap 包 类型
+ * pcap包类型
  */
 public enum  PacketType {
     SEND(4),   //发送的包

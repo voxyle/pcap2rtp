@@ -3,6 +3,9 @@ package com.xp.jrtp.voip;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ */
 public class Voip {
     private List<Sip> sipArray;
     private List<Rtp> rtpArray;

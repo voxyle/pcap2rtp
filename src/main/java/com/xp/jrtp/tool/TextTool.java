@@ -1,7 +1,7 @@
 package com.xp.jrtp.tool;
 
 /**
- * 字符串工具
+ * 字符串
  */
 public class TextTool {
     public static boolean isEmty(String s) {

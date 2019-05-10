@@ -6,7 +6,7 @@ package com.xp.jrtp.type;
  */
 public enum ProtocolType {
 
-    OTHER(0),                // 其他协议号：默认为0
+    OTHER(0),                // 其他协议号默认为0
     TCP(6),                    // TCP 协议号：6
     UDP(17);                    // UDP 协议号：17
 

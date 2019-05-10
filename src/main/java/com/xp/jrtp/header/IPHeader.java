@@ -10,7 +10,7 @@ public class IPHeader {
 
 	/**
 	 * 协议版本号(4 bit)及包头长度(4bit) =（1 字节）
-	 * 版本号(Version):一般的值为0100（IPv4），0110（IPv6）
+	 * 版本号(Version):一般的值为0100（IPv4）,0110（IPv6）
 	 * IP包头最小长度为20字节
 	 */
 	private byte varHLen;

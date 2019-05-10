@@ -7,7 +7,7 @@ package com.xp.jrtp.header;
  *
  */
 public class UDPHeader {
-	//下面四个每一个都是两个字节
+	//下面4个每个都是2个字节
 	private int srcPort;			// 源端口
 	private int dstPort;			// 目的端口
 	private int length;			// 数据包长(包括这4个域8个字节)

@@ -11,6 +11,11 @@ public class Trace {
             System.out.println(msg);
         }
     }
+    public static void e(Exception e){
+        if(debug){
+            e.printStackTrace();
+        }
+    }
 }
 
 

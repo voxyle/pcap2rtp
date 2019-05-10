@@ -2,6 +2,9 @@ package com.xp.jrtp.voip;
 
 import java.util.Objects;
 
+/**
+ * 电话信息
+ */
 public class Phone {
     private String from;
     private String to;

@@ -1,5 +1,8 @@
 package com.xp.jrtp.voip;
 
+/**
+ * rtp信息
+ */
 public class Rtp implements Comparable<Rtp> {
     //必须是2 (2位)
     private int version;

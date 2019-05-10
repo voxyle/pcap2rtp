@@ -7,7 +7,7 @@ import org.restcomm.media.codec.g729.Encoder;
 import java.util.ArrayList;
 
 /**
- * 解码工具
+ * decode工具
  */
 public class CodesTool {
     public static byte[] g711DecodeByte(byte[] g711Buffer) {

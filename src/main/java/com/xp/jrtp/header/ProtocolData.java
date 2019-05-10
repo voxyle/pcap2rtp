@@ -3,7 +3,7 @@ package com.xp.jrtp.header;
 import com.xp.jrtp.type.ProtocolType;
 
 /**
- * 协议数据，五元组
+ * 协议数据,五元组
  * @author johnnie
  *
  */

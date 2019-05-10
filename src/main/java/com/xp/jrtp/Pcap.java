@@ -21,6 +21,9 @@ import java.util.regex.Pattern;
 
 import static com.xp.jrtp.tool.ByteTool.*;
 
+/**
+ * pcap 解析类
+ */
 public class Pcap {
     private static final int HEADLEN = 16;
 
@@ -106,7 +109,7 @@ public class Pcap {
                 clear();
             }
 //            } catch (Exception e) {
-//                e.printStackTrace();
+//                Trance.e(e)
 //            }
 
         }
@@ -318,7 +321,7 @@ public class Pcap {
                     sip.setCdType(temp[1]);
                     sip.setCd(temp[2]);
                 } catch (Exception e) {
-                    e.printStackTrace();
+                    Trace.e(e);
                 }
             }
             String minTemp = regx(str, minfo);

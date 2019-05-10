@@ -1,7 +1,7 @@
 package com.xp.jrtp.tool;
 
 /**
- * pcm工具
+ * PCM工具
  */
 public class PCMTool {
     /**
