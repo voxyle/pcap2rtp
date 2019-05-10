@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edb359cf-2346-477b-af9c-5214e1ba0e17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/Pcap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/Pcap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/buffer/DataBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/buffer/DataBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/IPHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/IPHeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/PacketHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/PacketHeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/ProtocolData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/ProtocolData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/UDPHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/UDPHeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/log/Trace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/log/Trace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/ByteTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/ByteTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/CodesTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/CodesTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/PCMTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/PCMTool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/TextTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/TextTool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PacketType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PacketType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PayloadType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PayloadType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/ProtocolType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/ProtocolType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xp/jrtp/voip/Key.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,20 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/PCMTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/Pcap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="98" column="19" lean-forward="true" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="78">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -61,11 +34,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/TextTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="38">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding>
                 <element signature="e#106#107#0" expanded="true" />
                 <element signature="e#157#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PacketType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PayloadType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/ProtocolType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/voip/Phone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding>
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,24 +118,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/log/Trace.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/UDPHeader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/ProtocolData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -125,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/buffer/DataBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding>
                 <element signature="e#188#189#0" expanded="true" />
                 <element signature="e#231#232#0" expanded="true" />
@@ -149,23 +150,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/IPHeader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/CodesTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="931">
+              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,13 +192,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PacketType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/ProtocolType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PayloadType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/ByteTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/CodesTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/PCMTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/TextTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/log/Trace.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/Pcap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/UDPHeader.java" />
@@ -218,6 +201,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/PacketHeader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/header/IPHeader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/buffer/DataBuffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/PCMTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/TextTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PacketType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PayloadType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/ProtocolType.java" />
       </list>
     </option>
   </component>
@@ -436,12 +424,20 @@
       <updated>1556164861618</updated>
       <workItem from="1556164862715" duration="34146000" />
       <workItem from="1556413981188" duration="38056000" />
-      <workItem from="1557491867069" duration="3462000" />
+      <workItem from="1557491867069" duration="3793000" />
     </task>
+    <task id="LOCAL-00001" summary="整合完善">
+      <created>1557496945577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557496945578</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75664000" />
+    <option name="totallyTimeSpent" value="75995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -466,7 +462,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32925472" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32844576" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -480,6 +476,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="整合完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合完善" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -656,22 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/voip/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/AbstractStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -686,69 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PacketType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="9" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PayloadType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/ProtocolType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/ByteTool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/CodesTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/PCMTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/TextTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/buffer/DataBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
           <folding>
             <element signature="e#188#189#0" expanded="true" />
             <element signature="e#231#232#0" expanded="true" />
@@ -836,6 +761,72 @@
             <element signature="e#899#900#0" expanded="true" />
             <element signature="e#924#925#0" expanded="true" />
             <element signature="e#961#962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/CodesTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/PCMTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/tool/TextTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PacketType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/PayloadType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/type/ProtocolType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xp/jrtp/voip/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
           </folding>
         </state>
       </provider>
