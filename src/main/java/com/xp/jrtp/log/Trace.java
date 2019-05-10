@@ -1,5 +1,8 @@
 package com.xp.jrtp.log;
 
+/**
+ * log
+ */
 public class Trace {
     private static final boolean debug = true;
 

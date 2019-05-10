@@ -1,5 +1,8 @@
 package com.xp.jrtp.buffer;
 
+/**
+ * 字节读取Buffer
+ */
 public class DataBuffer {
     private byte[] data;
     private int offset;

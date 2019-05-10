@@ -16,8 +16,7 @@ public class Main {
         FileInputStream stream = null;
 
         try {
-            stream = new FileInputStream("D:\\goProject\\penge\\ttt\\Downloads\\a99~\\a99~~\\a_w0.cap");
-//            stream = new FileInputStream("D:\\goProject\\penge\\ttt\\Downloads\\a_w0.cap");
+            stream = new FileInputStream("D:\\Downloads\\a.pcap");
             new Entrance(Pcap.parse(stream))
                     .forMap();
         } catch (FileNotFoundException e) {
@@ -32,7 +31,7 @@ public class Main {
     private static class Entrance {
         private HashMap<String, Voip> vMap;
         private HashMap<Phone, List<byte[]>> ptpMap;
-        private String basePath = "D:\\goProject\\rtp\\";
+        private String basePath = "D:\\Downloads\\rtp\\";
         private String path;
 
 
@@ -63,37 +62,8 @@ public class Main {
                     }
                     array = ByteTool.mergeByte(array, rtp.getPayload());
                 }
-//                Sip sip = voip.getSip();
-//                if (sip == null) {
-//                    path = basePath + "noSip\\";
-//                    mkdirs(path);
                 exportPayload(array, ssrc, ptype);
-//                } else {
-//                    path = basePath + "Sip\\";
-//                    mkdirs(path);
-//                    exportPayload(array,ssrc,ptype);
-//                    Phone phone = sip.getPhone();
-//                    phone.setSsrc(ssrc);
-//                    phone.setPt(ptype);
-//                    List<byte[]> bList = ptpMap.get(phone);
-//                    if (bList == null) {
-//                        bList = new ArrayList<>();
-//                        ptpMap.put(sip.getPhone(), bList);
-//                    }
-//                    bList.add(array);
             }
-//            }
-//            Iterator<Map.Entry<Phone, List<byte[]>>> bIterator = ptpMap.entrySet().iterator();
-//            while (bIterator.hasNext()) {
-//                Map.Entry<Phone, List<byte[]>> entry = bIterator.next();
-//                Phone phone = entry.getKey();
-//                List<byte[]> list = entry.getValue();
-//                path = basePath+phone.getFrom()+"---"+phone.getTo()+"\\";
-//                mkdirs(path);
-//                for (byte[] bl:list){
-//                    exportPayload(bl,phone.getSsrc(),phone.getPt());
-//                }
-//            }
         }
 
         private void exportPayload(byte[] array, String ssrc, int ptype) {

@@ -1,5 +1,8 @@
 package com.xp.jrtp.header;
 
+/**
+ * 数据包头信息
+ */
 public class PacketHeader {
     private long timeHi;//时间戳高位  秒级
     private long timeLo;//时间戳低位  微秒级

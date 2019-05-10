@@ -3,19 +3,19 @@ package com.xp.jrtp.header;
 import com.xp.jrtp.type.ProtocolType;
 
 /**
- * Э�����ݣ���Ԫ��
+ * 协议数据，五元组
  * @author johnnie
  *
  */
 public class ProtocolData {
 
-	String srcIP;										// Դ IP
-	String desIP;										// Ŀ�� IP
+	String srcIP;										// 源 IP
+	String desIP;										// 目的 IP
 
-	int srcPort;										// Դ�˿�
-	int desPort;										// Ŀ�Ķ˿�
+	int srcPort;										// 源端口
+	int desPort;										// 目的端口
 	
-	ProtocolType protocolType = ProtocolType.OTHER;		// Э������
+	ProtocolType protocolType = ProtocolType.OTHER;		// 协议类型
 
 	public String getSrcIP() {
 		return srcIP;

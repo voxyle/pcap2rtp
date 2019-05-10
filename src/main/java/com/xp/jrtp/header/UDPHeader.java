@@ -2,16 +2,16 @@ package com.xp.jrtp.header;
 
 
 /**
- * UDP ��ͷ����4������ɣ�ÿ�����ռ��2���ֽ�
- * @author johnnie
+ * UDP 包头：由4个域组成，每个域各占用2个字节
+ * @author voxyle
  *
  */
 public class UDPHeader {
-	//�����ĸ�ÿһ�����������ֽ�
-	private int srcPort;			// Դ�˿�
-	private int dstPort;			// Ŀ�Ķ˿�
-	private int length;			// ���ݰ���
-	private int checkSum;		// У���
+	//下面四个每一个都是两个字节
+	private int srcPort;			// 源端口
+	private int dstPort;			// 目的端口
+	private int length;			// 数据包长(包括这4个域8个字节)
+	private int checkSum;		// 校验和
 	
 	public int getSrcPort() {
 		return srcPort;

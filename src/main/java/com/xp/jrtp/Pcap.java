@@ -9,7 +9,6 @@ import com.xp.jrtp.log.Trace;
 import com.xp.jrtp.tool.TextTool;
 import com.xp.jrtp.type.PacketType;
 import com.xp.jrtp.type.ProtocolType;
-import com.xp.jrtp.voip.Key;
 import com.xp.jrtp.voip.Rtp;
 import com.xp.jrtp.voip.Sip;
 import com.xp.jrtp.voip.Voip;
@@ -239,12 +238,6 @@ public class Pcap {
                     || udpHeader.getLength() == 0) {
                 return;
             }
-//            if (protocolData.getSrcIP().equals("63.209.35.179")
-//                    && protocolData.getDesIP().equals("66.42.77.216")
-//                    && protocolData.getSrcPort() == 5060
-//                    && protocolData.getDesPort() == 5060) {
-//                System.out.println();
-//            }
             int size = udpHeader.getLength() - 8;
             byte[] tmpbs = new byte[size];
             buffer.get(tmpbs);
@@ -256,12 +249,6 @@ public class Pcap {
                         !TextTool.isEmty(sip.getCd()) &&
                         !TextTool.isEmty(sip.getmPort())) {
                     String key = sip.getCd() + "&" + sip.getmPort();
-//                    Key key = new Key();
-//                    key.setBranch(sip.getBranch());
-//                    key.setSipSrcIp(ipHeader.getSrcIP());
-//                    key.setSipSrcPort(udpHeader.getSrcPort());
-//                    key.setSipDesIp(sip.getCd());
-//                    key.setSipDesPort(Integer.parseInt(sip.getmPort()));
                     Voip voip = vpMap.get(key);
                     if (voip == null) {
                         voip = new Voip();
@@ -280,12 +267,6 @@ public class Pcap {
                 Rtp rtp = parseRtp(new DataBuffer(tmpbs));
                 if (rtp != null) {
                     String key = ipHeader.getDstIP() + "&" + udpHeader.getDstPort();
-//                    Key key = new Key();
-//                    key.setSsrc(rtp.getSsrc());
-//                    key.setRtpSrcIp(ipHeader.getSrcIP());
-//                    key.setRtpDesIp(ipHeader.getDstIP());
-//                    key.setRtpSrcPort(udpHeader.getSrcPort());
-//                    key.setRtpDesPort(udpHeader.getDstPort());
                     Voip voip = vpMap.get(key);
                     if (voip == null) {
                         voip = new Voip();
@@ -329,11 +310,6 @@ public class Pcap {
             sip.setBranch(regxOfBrackets(str, branch));
             sip.setFrom(regxOfBrackets(str, from));
             sip.setTo(regxOfBrackets(str, to));
-//            StringBuffer buffer = new StringBuffer();
-//            buffer.append(regxOfBrackets(sip.getFrom(), sipPhone));
-//            buffer.append("→");
-//            buffer.append(regxOfBrackets(sip.getTo(), sipPhone));
-//            sip.setPhone(buffer.toString());
             String cinTemp = regx(str, cinfo);
             if (!TextTool.isEmty(cinTemp)) {
                 String[] temp = cinTemp.split(" ");

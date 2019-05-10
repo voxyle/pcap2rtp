@@ -2,62 +2,62 @@ package com.xp.jrtp.header;
 
 
 /**
- * IP ���ݱ�ͷ
- * @author johnnie
+ * IP 头
+ * @author voxyle
  *
  */
 public class IPHeader {
 
 	/**
-	 * Э��汾��(4 bit)����ͷ����(4bit) =��1 �ֽڣ�
-	 * �汾��(Version):һ���ֵΪ0100��IPv4����0110��IPv6��
-	 * IP��ͷ��С����Ϊ20�ֽ�
+	 * 协议版本号(4 bit)及包头长度(4bit) =（1 字节）
+	 * 版本号(Version):一般的值为0100（IPv4），0110（IPv6）
+	 * IP包头最小长度为20字节
 	 */
 	private byte varHLen;
 	private int version;
 	private int hLength;
 	/**
-	 * Type of  Service���������ͣ���1 �ֽڣ�
+	 * Type of  Service：服务类型，（1 字节）
 	 */
 	private byte tos;
-	
+
 	/**
-	 * �ܳ��ȣ�2 �ֽڣ�
+	 * 总长度（2 字节）
 	 */
 	private int totalLen;
-	
+
 	/**
-	 * ��ʶ��2 �ֽڣ�
+	 * 标识（2 字节）
 	 */
 	private int id;
 	
 	/**
-	 * ��־��ƫ������2 �ֽڣ�
+	 * 标志与偏移量（2 字节）
 	 */
 	private int flagSegment;
 	
 	/**
-	 * Time to Live���������ڣ�1 �ֽڣ�
+	 * Time to Live：生存周期（1 字节）
 	 */
 	private byte ttl;
 	
 	/**
-	 * Э�����ͣ�1 �ֽڣ�
+	 * 协议类型（1 字节）
 	 */
 	private byte protocol;
 	
 	/**
-	 * ͷ��У��ͣ�2 �ֽڣ�
+	 * 头部校验和（2 字节）
 	 */
 	private int checkSum;
 	
 	/**
-	 * Դ IP��4 �ֽڣ�
+	 * 源 IP（4 字节）
 	 */
 	private String srcIP;
 	
 	/**
-	 * Ŀ�� IP��4 �ֽڣ�
+	 * 目的 IP（4 字节）
 	 */
 	private String dstIP;
 

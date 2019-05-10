@@ -1,9 +1,13 @@
 package com.xp.jrtp.tool;
 
+/**
+ *  byte工具
+ */
 public class ByteTool {
-    public static String tohex(byte[] buff_2) {
+    //把byte数组转换成十六进制
+    public static String tohex(byte[] buffer) {
         StringBuffer port = new StringBuffer();
-        for (byte b : buff_2) {
+        for (byte b : buffer) {
             String hex = Integer.toHexString(b & 0xFF);
             if (hex.length() < 2) {
                 hex = "0" + hex;
@@ -12,7 +16,7 @@ public class ByteTool {
         }
         return port.toString();
     }
-
+    //把byte数组转换成十六进制并翻转
     public static long toReverseHex(byte[] buffer) {
         StringBuffer strBf = new StringBuffer();
         for (byte b : buffer) {
@@ -20,8 +24,9 @@ public class ByteTool {
             if (hex.length() < 2) {
                 hex = "0" + hex;
             }
-            strBf.insert(0, hex);
+            strBf.append(hex);
         }
+        strBf.reverse();
         return Long.parseLong(strBf.toString(), 16);
     }
 
@@ -36,6 +41,12 @@ public class ByteTool {
                 + (byte) ((b >> 1) & 0x1) + (byte) ((b >> 0) & 0x1);
     }
 
+    /**
+     *  合并byte数组;
+     * @param b1
+     * @param b2
+     * @return
+     */
     public static byte[] mergeByte(byte[] b1, byte[] b2) {
         byte[] temp = new byte[b1.length + b2.length];
         System.arraycopy(b1, 0, temp, 0, b1.length);
